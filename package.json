@@ -4,7 +4,7 @@
   "version": "4.0.0-beta.2",
   "description": "Agency is a one page HTML theme for Bootstrap.",
   "scripts": {
-    "start": "node server/index.js",
+    "start": "node server/index.js"
   },
   "keywords": [
     "css",
