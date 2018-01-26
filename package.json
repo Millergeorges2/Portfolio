@@ -3,11 +3,11 @@
   "name": "startbootstrap-agency",
   "version": "4.0.0-beta.2",
   "description": "Agency is a one page HTML theme for Bootstrap.",
-  "main": "server/index.js",  
+  "main": "server/index.js",
   "scripts": {
     "build": "npm run less && webpack",
     "start": "node server/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",    
+    "test": "echo \"Error: no test specified\" && exit 1",
     "less": "lessc src/css/style.less dist/css/style.css",
     "lint": "eslint ."
   },
@@ -23,6 +23,7 @@
   "author": "Start Bootstrap",
   "dependencies": {
     "bootstrap": "^4.0.0-beta.2",
+    "express": "^4.16.2",
     "font-awesome": "4.7.0",
     "jquery": "^3.2.1",
     "jquery.easing": "^1.4.1"
