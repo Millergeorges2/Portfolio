@@ -4,6 +4,14 @@
   "version": "4.0.0-beta.2",
   "description": "Agency is a one page HTML theme for Bootstrap.",
   "main": "server/index.js",  
+  "scripts": {
+    "build": "npm run less && webpack",
+    "start": "node server/index.js",
+    "less": "lessc src/css/style.less dist/css/style.css",
+    "lint": "eslint .",
+    "test": "npm run build && mocha test/.setup.js test/*.spec.js",
+    "postinstall": "npm run build"
+  },
   "keywords": [
     "css",
     "sass",
