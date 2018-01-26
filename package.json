@@ -9,8 +9,7 @@
     "start": "node server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",    
     "less": "lessc src/css/style.less dist/css/style.css",
-    "lint": "eslint .",
-    "postinstall": "npm run build"
+    "lint": "eslint ."
   },
   "keywords": [
     "css",
